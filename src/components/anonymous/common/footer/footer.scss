@@ -1,0 +1,46 @@
+.footer {
+  background: linear-gradient(rgba(51, 33, 29, 0.9), rgba(51, 33, 29, 0.9)),
+    url(../.../../../../../assets/img/bg.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  input {
+    padding: 13px;
+    padding-left: 25px;
+  }
+
+  a {
+    text-decoration: none;
+    padding: 0;
+    position: relative;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    svg {
+      position: absolute;
+      top: 30%;
+      transform: translateX(-50%);
+    }
+  }
+
+  &.overlay-top::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 15px;
+    left: 0;
+    z-index: 1;
+  }
+
+  &.overlay-top::before {
+    top: -1px;
+    background: url(../.../../../../../assets/img/overlay-top.png);
+  }
+
+  .divborder {
+    border-color: rgba(256, 256, 256, 0.1) !important;
+  }
+}

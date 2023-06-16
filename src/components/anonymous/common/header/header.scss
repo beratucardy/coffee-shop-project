@@ -1,0 +1,41 @@
+@use "../../../../assets/scss/variables" as v;
+
+.header {
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+
+  @media (max-width: 991.98px) {
+    position: relative;
+    background: v.$color2;
+  }
+
+  .navbar {
+    padding: 0.5rem 1rem;
+
+    .navbar-brand {
+      font-size: 1.25rem;
+
+      h1 {
+        font-size: 3.5rem;
+        font-weight: 700;
+      }
+    }
+
+    .nav-link {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+      font-weight: bold;
+      letter-spacing: 1px;
+      color: v.$color3;
+
+      &.active {
+        color: v.$color1 !important;
+      }
+
+      &:hover {
+        color: v.$color1;
+      }
+    }
+  }
+}

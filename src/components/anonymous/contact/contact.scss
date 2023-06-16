@@ -1,0 +1,19 @@
+.contact {
+  input {
+    padding: 1rem !important;
+  }
+
+  svg {
+    font-size: 2em;
+  }
+
+  .contact-form {
+    .help-block {
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+    }
+  }
+}

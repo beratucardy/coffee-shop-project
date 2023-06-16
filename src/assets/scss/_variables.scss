@@ -1,0 +1,66 @@
+$color1: #da9f5b;
+$color2: #33211d;
+$color3: #fffbf2;
+$color4: #111111;
+$color5: #555555;
+
+/* BOOTSTRAP */
+$primary: #da9f5b;
+$secondary: #33211d;
+$light: #fffbf2;
+$dark: #111111;
+$font-family-sans-serif: "Montserrat", sans-serif;
+$headings-font-family: "Roboto", sans-serif;
+$body-bg: $light;
+$body-color: #555555;
+$headings-color: $secondary;
+$display1-size: 8rem;
+$enable-responsive-font-sizes: true;
+$enable-rounded: false;
+$enable-shadows: false;
+
+/* Custom SCSS */
+h1,
+h2,
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+
+h3,
+h4,
+.font-weight-medium {
+  font-weight: 500 !important;
+}
+
+h5,
+h6,
+.font-weight-normal {
+  font-weight: 400 !important;
+}
+
+.btn-square {
+  width: 36px;
+  height: 36px;
+}
+
+.btn-sm-square {
+  width: 28px;
+  height: 28px;
+}
+
+.btn-lg-square {
+  width: 46px;
+  height: 46px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+svg {
+  font-weight: 900;
+}

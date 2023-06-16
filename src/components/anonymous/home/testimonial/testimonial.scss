@@ -1,0 +1,33 @@
+@use "../../../../assets/scss/variables" as v;
+
+.testimonial {
+  .testimonial-carousel {
+    .owl-dots {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .owl-dot {
+      position: relative;
+      display: inline-block;
+      margin: 0 5px;
+      width: 20px;
+      height: 20px;
+      border-radius: 20px;
+      background: v.$color1;
+      transition: 0.5s;
+
+      &.active {
+        width: 40px;
+        background: v.$color2;
+      }
+    }
+
+    .item {
+      img {
+        width: 80px;
+        height: 80px;
+      }
+    }
+  }
+}
